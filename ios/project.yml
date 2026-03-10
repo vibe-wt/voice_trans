@@ -1,0 +1,38 @@
+name: AIJournalApp
+options:
+  minimumXcodeGenVersion: 2.38.0
+packages:
+  LiveKit:
+    url: https://github.com/livekit/client-sdk-swift.git
+    from: 2.11.0
+settings:
+  base:
+    PRODUCT_BUNDLE_IDENTIFIER: com.wutong.aivoicejournal
+    IPHONEOS_DEPLOYMENT_TARGET: 17.0
+targets:
+  AIJournalApp:
+    type: application
+    platform: iOS
+    dependencies:
+      - package: LiveKit
+    sources:
+      - AIJournalApp
+    settings:
+      base:
+        PRODUCT_NAME: AIJournalApp
+        SWIFT_VERSION: 5.10
+        INFOPLIST_KEY_CFBundleDisplayName: AI语音日记
+    info:
+      path: AIJournalApp/Info.plist
+      properties:
+        UILaunchScreen: {}
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        NSAppTransportSecurity:
+          NSAllowsLocalNetworking: true
+        NSCalendarsUsageDescription: 需要日历权限来把明日安排写入系统日历。
+        NSLocalNetworkUsageDescription: 需要访问同一局域网下的开发服务器来完成语音会话与同步。
+        NSMicrophoneUsageDescription: 需要麦克风权限来进行语音对话。
+        UIRequiresFullScreen: true
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait

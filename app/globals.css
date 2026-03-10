@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  min-height: 100%;
+  background: #eef3f8;
+}
+
+body {
+  min-height: 100vh;
+  color: #102235;
+  background-color: #eef3f8;
+  background-image: radial-gradient(circle at top, rgba(15, 76, 129, 0.12), transparent 36%),
+    linear-gradient(rgba(255, 255, 255, 0.45) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.45) 1px, transparent 1px);
+  background-size: auto, 24px 24px, 24px 24px;
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

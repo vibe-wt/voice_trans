@@ -1,0 +1,16 @@
+.next
+node_modules
+.env.local
+.env
+dist
+coverage
+*.log
+*.tsbuildinfo
+.DS_Store
+build
+DerivedData
+*.xcuserstate
+ios/AIJournalApp.xcodeproj/xcuserdata/
+ios/AIJournalApp.xcodeproj/project.xcworkspace/xcuserdata/
+references/agent-starter-node/
+references/agent-starter-swift/

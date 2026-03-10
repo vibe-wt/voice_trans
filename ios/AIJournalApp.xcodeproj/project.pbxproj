@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11297A88AE2F55733F050BFA /* TranscriptItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4420A7BDBA516EDC59085102 /* TranscriptItem.swift */; };
+		2567D79EF735579483353BB4 /* VoiceSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D83A6BD964CEF11CA5C8306 /* VoiceSessionView.swift */; };
+		25DB95DB8F0E4F5AD68A75E2 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AFD9E10C6887CC427C612C /* AppTheme.swift */; };
+		25EB098954DC9C157C0BDE2D /* CalendarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A169B97452BAF49586F075 /* CalendarService.swift */; };
+		3128DBAE6C7574EB218768D8 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B67AD752A412E4569703864 /* ShareSheet.swift */; };
+		31E5998432BB71C670E7ECB1 /* TomorrowPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78DED4AB0ED9F14769BA5CD /* TomorrowPlanView.swift */; };
+		4E7B862AB74075FE17A80D9A /* RealtimeEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4438B09E7E369AE57C42D17 /* RealtimeEvent.swift */; };
+		5DE51EC8B236C5E715035F90 /* SessionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EBF7DBCA6087A7CC5B218C /* SessionDetailView.swift */; };
+		6DFC566AD646C8BAAEF89D1B /* VoicePersona.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9869F7F8E1B4652CDB60B341 /* VoicePersona.swift */; };
+		787076315F9AC97BE1548861 /* DisplayText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020974F6E2016C70F46B281E /* DisplayText.swift */; };
+		7DC4DFBBB770669219422FB5 /* RealtimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597EEDC5A1A910993B3EFC36 /* RealtimeService.swift */; };
+		84733F84AFA3793DCE41F81D /* VoiceBackend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A835B3EF54D024DC0AA79 /* VoiceBackend.swift */; };
+		8507BAA7072F93D14EFF46AA /* PlannedTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4355999F2557F4523F4517C /* PlannedTask.swift */; };
+		9294101B796580421B4717BB /* VoiceSessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B693EFEB262C0EE96E5C57DC /* VoiceSessionViewModel.swift */; };
+		9F59A68FC4F561DAC5FCD644 /* PermissionStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF1F2D1F641B5F67F5C5F9 /* PermissionStatus.swift */; };
+		A905A98E5F39199010E7857B /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70424DF5A00050700C9428F0 /* AppCoordinator.swift */; };
+		AFBC32EACDA7AA79DC77D1C5 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D9171C7A51D08B32348352 /* APIClient.swift */; };
+		B987BBEEA97BAFA3448C26DF /* AIJournalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E90E8B45FE28CC0EB50C3F /* AIJournalApp.swift */; };
+		BAAA9BED87EC5EFE9869F614 /* LiveKitRealtimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F076622F37C28703658389 /* LiveKitRealtimeService.swift */; };
+		BD411C4E46B17083EA970B5C /* AudioCaptureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF5ACF2DA23CD4019EE8E02 /* AudioCaptureService.swift */; };
+		C2E140B6B87EE1A476A72A40 /* TodayJournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FF2341E6E22C80D9F4D527 /* TodayJournalView.swift */; };
+		CC68113013E794C512EC6053 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28672E8E254AC3EA3B27003 /* RootTabView.swift */; };
+		CF103C51972314BF45B272D0 /* APIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD6FED857FDF83A1FB649E9 /* APIModels.swift */; };
+		D9588E6FFCB7368A835FDBA7 /* VoiceSessionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF694D95F0751CF64B70214A /* VoiceSessionState.swift */; };
+		E4AA6F7368C3EC9D8063BEA4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A876019ED71504A756B0E8 /* SettingsView.swift */; };
+		E9C1B84237D6B78BF4F5F5DD /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070745C07CB4CB80C4A3E156 /* AppSettings.swift */; };
+		F01A054A9600966812F8C222 /* LiveKit in Frameworks */ = {isa = PBXBuildFile; productRef = FD390D7D9A73CC3C8F460E19 /* LiveKit */; };
+		FA6AA7EBA18B7487A4F9B473 /* AssistantPlaybackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8FDD785EC945E78065F29D /* AssistantPlaybackService.swift */; };
+		FEDEB704D728ECB3BC2BAB8E /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBBD31379DBB42C4BB247D3 /* HistoryView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		020974F6E2016C70F46B281E /* DisplayText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayText.swift; sourceTree = "<group>"; };
+		070745C07CB4CB80C4A3E156 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		1E6D5B1C7C4045002423BF6D /* AIJournalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIJournalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D8FDD785EC945E78065F29D /* AssistantPlaybackService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantPlaybackService.swift; sourceTree = "<group>"; };
+		3CD6FED857FDF83A1FB649E9 /* APIModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModels.swift; sourceTree = "<group>"; };
+		4420A7BDBA516EDC59085102 /* TranscriptItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptItem.swift; sourceTree = "<group>"; };
+		55E90E8B45FE28CC0EB50C3F /* AIJournalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIJournalApp.swift; sourceTree = "<group>"; };
+		56EBF7DBCA6087A7CC5B218C /* SessionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDetailView.swift; sourceTree = "<group>"; };
+		597EEDC5A1A910993B3EFC36 /* RealtimeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimeService.swift; sourceTree = "<group>"; };
+		65A169B97452BAF49586F075 /* CalendarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarService.swift; sourceTree = "<group>"; };
+		6B67AD752A412E4569703864 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		70424DF5A00050700C9428F0 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		72FF1F2D1F641B5F67F5C5F9 /* PermissionStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionStatus.swift; sourceTree = "<group>"; };
+		91AFD9E10C6887CC427C612C /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		9869F7F8E1B4652CDB60B341 /* VoicePersona.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoicePersona.swift; sourceTree = "<group>"; };
+		9A1A835B3EF54D024DC0AA79 /* VoiceBackend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceBackend.swift; sourceTree = "<group>"; };
+		9D83A6BD964CEF11CA5C8306 /* VoiceSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceSessionView.swift; sourceTree = "<group>"; };
+		A28672E8E254AC3EA3B27003 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		A4355999F2557F4523F4517C /* PlannedTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannedTask.swift; sourceTree = "<group>"; };
+		A8FF2341E6E22C80D9F4D527 /* TodayJournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayJournalView.swift; sourceTree = "<group>"; };
+		B693EFEB262C0EE96E5C57DC /* VoiceSessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceSessionViewModel.swift; sourceTree = "<group>"; };
+		B9A876019ED71504A756B0E8 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C1F076622F37C28703658389 /* LiveKitRealtimeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveKitRealtimeService.swift; sourceTree = "<group>"; };
+		C4438B09E7E369AE57C42D17 /* RealtimeEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimeEvent.swift; sourceTree = "<group>"; };
+		C78DED4AB0ED9F14769BA5CD /* TomorrowPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomorrowPlanView.swift; sourceTree = "<group>"; };
+		DEBBD31379DBB42C4BB247D3 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		DEF5ACF2DA23CD4019EE8E02 /* AudioCaptureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCaptureService.swift; sourceTree = "<group>"; };
+		DF694D95F0751CF64B70214A /* VoiceSessionState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceSessionState.swift; sourceTree = "<group>"; };
+		E0DF0EFABB5FBF1D43C298CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F3D9171C7A51D08B32348352 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E99656F6EAA4F0E20550416 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F01A054A9600966812F8C222 /* LiveKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EF287276EEE113E915983A2 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				2D8FDD785EC945E78065F29D /* AssistantPlaybackService.swift */,
+				DEF5ACF2DA23CD4019EE8E02 /* AudioCaptureService.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		29CE6D802ABC309D0BAC11CC /* VoiceSession */ = {
+			isa = PBXGroup;
+			children = (
+				DF694D95F0751CF64B70214A /* VoiceSessionState.swift */,
+				9D83A6BD964CEF11CA5C8306 /* VoiceSessionView.swift */,
+				B693EFEB262C0EE96E5C57DC /* VoiceSessionViewModel.swift */,
+			);
+			path = VoiceSession;
+			sourceTree = "<group>";
+		};
+		2BBA4BE12D9CF40B0C0DDE43 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				65A169B97452BAF49586F075 /* CalendarService.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		433D38DE2CD7A777A1A315FF /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B9A876019ED71504A756B0E8 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		454EC427549698A7E13DBFBA /* AIJournalApp */ = {
+			isa = PBXGroup;
+			children = (
+				E0DF0EFABB5FBF1D43C298CA /* Info.plist */,
+				E7E510577781DE32A57CD5C0 /* App */,
+				61E709D8DA9AA2F30A070C21 /* Features */,
+				9542A7E604E5D7B8C476B33B /* Models */,
+				92C3F209634BB12C9FA012F5 /* Services */,
+			);
+			path = AIJournalApp;
+			sourceTree = "<group>";
+		};
+		55FB30529DE4044ED8914A3E /* Realtime */ = {
+			isa = PBXGroup;
+			children = (
+				C1F076622F37C28703658389 /* LiveKitRealtimeService.swift */,
+				597EEDC5A1A910993B3EFC36 /* RealtimeService.swift */,
+			);
+			path = Realtime;
+			sourceTree = "<group>";
+		};
+		61E709D8DA9AA2F30A070C21 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				7D8D24BF51A2D5ADAAC1AFC2 /* History */,
+				433D38DE2CD7A777A1A315FF /* Settings */,
+				8782B160E4F790C6F57CF21C /* Shared */,
+				B8D37B44519191818D695DF7 /* TodayJournal */,
+				EBA97831ED30AE36F6490A14 /* TomorrowPlan */,
+				29CE6D802ABC309D0BAC11CC /* VoiceSession */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		7D8D24BF51A2D5ADAAC1AFC2 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				DEBBD31379DBB42C4BB247D3 /* HistoryView.swift */,
+				56EBF7DBCA6087A7CC5B218C /* SessionDetailView.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		8782B160E4F790C6F57CF21C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6B67AD752A412E4569703864 /* ShareSheet.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		9006311F3EFB27E7012FBB05 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				F3D9171C7A51D08B32348352 /* APIClient.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		92C3F209634BB12C9FA012F5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9006311F3EFB27E7012FBB05 /* API */,
+				0EF287276EEE113E915983A2 /* Audio */,
+				2BBA4BE12D9CF40B0C0DDE43 /* Calendar */,
+				55FB30529DE4044ED8914A3E /* Realtime */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9542A7E604E5D7B8C476B33B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3CD6FED857FDF83A1FB649E9 /* APIModels.swift */,
+				020974F6E2016C70F46B281E /* DisplayText.swift */,
+				72FF1F2D1F641B5F67F5C5F9 /* PermissionStatus.swift */,
+				A4355999F2557F4523F4517C /* PlannedTask.swift */,
+				C4438B09E7E369AE57C42D17 /* RealtimeEvent.swift */,
+				4420A7BDBA516EDC59085102 /* TranscriptItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A104063AB0D5EC38F32D80F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E6D5B1C7C4045002423BF6D /* AIJournalApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8D37B44519191818D695DF7 /* TodayJournal */ = {
+			isa = PBXGroup;
+			children = (
+				A8FF2341E6E22C80D9F4D527 /* TodayJournalView.swift */,
+			);
+			path = TodayJournal;
+			sourceTree = "<group>";
+		};
+		E4DDE7BCE929E0F752E5A46B = {
+			isa = PBXGroup;
+			children = (
+				454EC427549698A7E13DBFBA /* AIJournalApp */,
+				A104063AB0D5EC38F32D80F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7E510577781DE32A57CD5C0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				55E90E8B45FE28CC0EB50C3F /* AIJournalApp.swift */,
+				70424DF5A00050700C9428F0 /* AppCoordinator.swift */,
+				070745C07CB4CB80C4A3E156 /* AppSettings.swift */,
+				91AFD9E10C6887CC427C612C /* AppTheme.swift */,
+				A28672E8E254AC3EA3B27003 /* RootTabView.swift */,
+				9A1A835B3EF54D024DC0AA79 /* VoiceBackend.swift */,
+				9869F7F8E1B4652CDB60B341 /* VoicePersona.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EBA97831ED30AE36F6490A14 /* TomorrowPlan */ = {
+			isa = PBXGroup;
+			children = (
+				C78DED4AB0ED9F14769BA5CD /* TomorrowPlanView.swift */,
+			);
+			path = TomorrowPlan;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C66D5B0994F210AB097C0B7 /* AIJournalApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88A75D416A268845E9BB9F9D /* Build configuration list for PBXNativeTarget "AIJournalApp" */;
+			buildPhases = (
+				6BB54601054662172F82FA7C /* Sources */,
+				4E99656F6EAA4F0E20550416 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AIJournalApp;
+			packageProductDependencies = (
+				FD390D7D9A73CC3C8F460E19 /* LiveKit */,
+			);
+			productName = AIJournalApp;
+			productReference = 1E6D5B1C7C4045002423BF6D /* AIJournalApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04D25D379618816FC3F7CBFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 001F9FAFA79F3A1745B845AA /* Build configuration list for PBXProject "AIJournalApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = E4DDE7BCE929E0F752E5A46B;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C97F33EB03697A1B7C5FF8A5 /* XCRemoteSwiftPackageReference "client-sdk-swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A104063AB0D5EC38F32D80F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C66D5B0994F210AB097C0B7 /* AIJournalApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BB54601054662172F82FA7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B987BBEEA97BAFA3448C26DF /* AIJournalApp.swift in Sources */,
+				AFBC32EACDA7AA79DC77D1C5 /* APIClient.swift in Sources */,
+				CF103C51972314BF45B272D0 /* APIModels.swift in Sources */,
+				A905A98E5F39199010E7857B /* AppCoordinator.swift in Sources */,
+				E9C1B84237D6B78BF4F5F5DD /* AppSettings.swift in Sources */,
+				25DB95DB8F0E4F5AD68A75E2 /* AppTheme.swift in Sources */,
+				FA6AA7EBA18B7487A4F9B473 /* AssistantPlaybackService.swift in Sources */,
+				BD411C4E46B17083EA970B5C /* AudioCaptureService.swift in Sources */,
+				25EB098954DC9C157C0BDE2D /* CalendarService.swift in Sources */,
+				787076315F9AC97BE1548861 /* DisplayText.swift in Sources */,
+				FEDEB704D728ECB3BC2BAB8E /* HistoryView.swift in Sources */,
+				BAAA9BED87EC5EFE9869F614 /* LiveKitRealtimeService.swift in Sources */,
+				9F59A68FC4F561DAC5FCD644 /* PermissionStatus.swift in Sources */,
+				8507BAA7072F93D14EFF46AA /* PlannedTask.swift in Sources */,
+				4E7B862AB74075FE17A80D9A /* RealtimeEvent.swift in Sources */,
+				7DC4DFBBB770669219422FB5 /* RealtimeService.swift in Sources */,
+				CC68113013E794C512EC6053 /* RootTabView.swift in Sources */,
+				5DE51EC8B236C5E715035F90 /* SessionDetailView.swift in Sources */,
+				E4AA6F7368C3EC9D8063BEA4 /* SettingsView.swift in Sources */,
+				3128DBAE6C7574EB218768D8 /* ShareSheet.swift in Sources */,
+				C2E140B6B87EE1A476A72A40 /* TodayJournalView.swift in Sources */,
+				31E5998432BB71C670E7ECB1 /* TomorrowPlanView.swift in Sources */,
+				11297A88AE2F55733F050BFA /* TranscriptItem.swift in Sources */,
+				84733F84AFA3793DCE41F81D /* VoiceBackend.swift in Sources */,
+				6DFC566AD646C8BAAEF89D1B /* VoicePersona.swift in Sources */,
+				D9588E6FFCB7368A835FDBA7 /* VoiceSessionState.swift in Sources */,
+				2567D79EF735579483353BB4 /* VoiceSessionView.swift in Sources */,
+				9294101B796580421B4717BB /* VoiceSessionViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1F16C7D571F0B5B136611F88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wutong.aivoicejournal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		28D41E5CB758895B317546B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wutong.aivoicejournal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		39655159E825065E69E9DD62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = N8N4TYQBSH;
+				INFOPLIST_FILE = AIJournalApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "AI语音日记";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_NAME = AIJournalApp;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEE9F15F7E0BDB52FE287C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = N8N4TYQBSH;
+				INFOPLIST_FILE = AIJournalApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "AI语音日记";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_NAME = AIJournalApp;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		001F9FAFA79F3A1745B845AA /* Build configuration list for PBXProject "AIJournalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F16C7D571F0B5B136611F88 /* Debug */,
+				28D41E5CB758895B317546B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		88A75D416A268845E9BB9F9D /* Build configuration list for PBXNativeTarget "AIJournalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39655159E825065E69E9DD62 /* Debug */,
+				CEE9F15F7E0BDB52FE287C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C97F33EB03697A1B7C5FF8A5 /* XCRemoteSwiftPackageReference "client-sdk-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/livekit/client-sdk-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FD390D7D9A73CC3C8F460E19 /* LiveKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C97F33EB03697A1B7C5FF8A5 /* XCRemoteSwiftPackageReference "client-sdk-swift" */;
+			productName = LiveKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 04D25D379618816FC3F7CBFC /* Project object */;
+}
